@@ -7,7 +7,8 @@ import { colors } from './components/utils/properties';
 import { Timer } from './components/features/timer/timer';
 
 export default function App() {
-  const [focusSubject, setFocusSubject] = useState("null");
+  const [focusSubject, setFocusSubject] = useState(null);
+  // set null value
 
   return (
     <View style={styles.container}>
