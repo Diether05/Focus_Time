@@ -7,7 +7,7 @@ import { colors } from './components/utils/properties';
 import { Timer } from './components/features/timer/timer';
 
 export default function App() {
-  const [focusSubject, setFocusSubject] = useState("Coding");
+  const [focusSubject, setFocusSubject] = useState("null");
 
   return (
     <View style={styles.container}>
@@ -22,5 +22,5 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 50,
     backgroundColor: colors.appleGreen,
-     },
+    },
 });
